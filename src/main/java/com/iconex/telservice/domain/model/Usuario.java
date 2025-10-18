@@ -49,71 +49,51 @@ public class Usuario {
     public void setIdUsuario(Long idUsuario) {
         this.idUsuario = idUsuario;
     }
-
-
-
     public Long getIdUsuario() {
         return idUsuario;
-    }
-
-    
-    
+    } 
     public String getCorreo() {
         return correo;
     }
-
     public void setCorreo(String correo) {
         this.correo = correo;
     }
-
     public String getContrasena() {
         return contrasena;
     }
-
     public void setContrasena(String contrasena) {
         this.contrasena = contrasena;
     }
-
     public String getDni() {
         return dni;
     }
-
     public void setDni(String dni) {
         this.dni = dni;
     }
-
     public String getNombre() {
         return nombre;
     }
-
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-
     public Area getArea() {
         return area;
     }
-
     public void setArea(Area area) {
         this.area = area;
     }
-
     public Cargo getCargo() {
         return cargo;
     }
-
     public void setCargo(Cargo cargo) {
         this.cargo = cargo;
     }
-
     public Estado getEstado() {
         return estado;
     }
-
     public void setEstado(Estado estado) {
         this.estado = estado;
     }
-
     public Rol getRol() {
         return rol;
     }
@@ -157,6 +137,6 @@ public class Usuario {
     }
 
   
-
-
+ 
 }
+

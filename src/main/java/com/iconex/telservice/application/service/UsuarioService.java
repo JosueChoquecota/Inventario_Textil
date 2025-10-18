@@ -60,6 +60,7 @@ public class UsuarioService {
         return saved;
     }
 
+    
     public boolean dniExisteOtroUsuario(String dni, Long idUsuario) {
         return repo.findByDni(dni)
                 .filter(u -> !u.getIdUsuario().equals(idUsuario))
