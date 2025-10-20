@@ -15,14 +15,14 @@ import java.util.Optional;
  */
 
 public interface UsuarioRepositoryPort {
-    Usuario save(Usuario usuario);           // Crear o actualizar
-    Optional<Usuario> findById(Long id);       // Buscar por ID
-    Optional<Usuario> findByDni(String dni);      // Buscar por Dni
-    Optional<Usuario> findByCorreo(String correo); 
-    Optional<Usuario> findByCorreoConRol(String correo);// Buscar por Correo con rol
-    List<Usuario> findAll();                   // Listar todos
-    void deleteById(Long id);                   // Borrar por ID
-    
+        Usuario save(Usuario usuario);           // Crear o actualizar
+        Optional<Usuario> findById(Long id);       // Buscar por ID
+        Optional<Usuario> findByDni(String dni);      // Buscar por Dni
+        Optional<Usuario> findByCorreo(String correo); 
+        Optional<Usuario> findByCorreoConRol(String correo);// Buscar por Correo con rol
+        List<Usuario> findAll();                   // Listar todos
+        void deleteById(Long id);                   // Borrar por ID
+
     
     List<Usuario> findAllPaginated(int page, int size, String search);
     long countAllFiltered(String search);

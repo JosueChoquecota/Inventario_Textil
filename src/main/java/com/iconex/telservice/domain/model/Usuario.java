@@ -18,14 +18,14 @@ public class Usuario {
     private String contrasena;
     private String dni;
     private String nombre;
-    private Area area;
-    private Cargo cargo;
+    private Area area; /////
+    private Cargo cargo; /////
     private Estado estado;
-    private Rol rol;
-    private Rango rango;
-    private Sede sede;
+    private Rol rol; /////
+    private Rango rango; /////
+    private Sede sede; /////
     private LocalDate fechaInicio;
-    private TipoContratacion tipoContratacion;
+    private TipoContratacion tipoContratacion; /////
 
     public Usuario() {
     }
